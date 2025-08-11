@@ -11,16 +11,6 @@ This repository contains a collection of JavaScript problems and mini-projects o
 
 ---
 
-## 📁 Folder Structure
-
-| Folder Name              | Description                                                                       |
-| ------------------------ | --------------------------------------------------------------------------------- |
-| `01-color-picker`        | A live RGB color preview tool using input sliders and DOM manipulation.           |
-| `02-ordered-linked-list` | A custom ordered linked list object with enqueue, insert, and delete operations.  |
-| `03-task-manager`        | A simple ToDo list application with features to add, mark done, and delete tasks. |
-| `04-...`                 | _[Future tasks will be listed here with a short description]_                     |
-
----
 
 ## 📌 How to Use
 
@@ -31,15 +21,6 @@ This repository contains a collection of JavaScript problems and mini-projects o
 
 ---
 
-## 🧠 Tips for Contribution
-
-If you're adding a new task:
-
-- Create a new numbered folder: `NN-task-name`
-- Add your HTML, JS, and CSS files.
-- Include a `README.md` in the folder to describe the problem and features.
-
----
 
 ## 📚 Topics Covered
 
