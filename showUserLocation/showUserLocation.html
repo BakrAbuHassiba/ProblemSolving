@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <input type="button" value="Show my location" id="btn" />
+  <body>
+    <script>
+      var btn = document.querySelector("#btn");
+      btn.addEventListener("click", function () {
+        navigator.geolocation.getCurrentPosition(function (p) {
+          console.log(p.coords.latitude, p.coords.longitude);
+          window.open(
+            "https://www.google.com/maps/@" +
+              p.coords.latitude +
+              "," +
+              p.coords.longitude)
+        });
+      });
+    </script>
+  </body>
+</html>
